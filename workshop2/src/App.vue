@@ -8,24 +8,25 @@
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./assets/fonts/Montserrat-Medium.ttf) format("truetype");
 }
 
-#nav {
-  padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+// $theme-colors:(
+//   info : rgb(87, 0, 0)
+// );
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+$info : rgb(87, 0, 0);
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+
+*{
+  font-family: 'Montserrat';
 }
+
 </style>

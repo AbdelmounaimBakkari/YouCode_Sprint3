@@ -98,6 +98,10 @@
 
 <style scoped lang="scss">
 
+*{
+  text-align: center;
+}
+
 img {
   width: 80%;
   animation: move 1s 5;

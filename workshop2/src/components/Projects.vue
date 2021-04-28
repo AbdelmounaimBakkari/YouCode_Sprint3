@@ -6,18 +6,17 @@
             <div class="row justify-content-center">
             <div class="col-8">
                 <div class="text-center">
-                <div class="card-body animate__animated animate__fadeInDown">
-                    <h3 class="card-title text-white">MY PROJECTS</h3>
-                    <p class="card-text text-white">THIS IS MY STORY</p>
-                    <div class="line text-white"></div>
-                </div>
+                    <div class="card-body animate__animated animate__fadeInDown">
+                        <h3 class="card-title text-white">MY PROJECTS</h3>
+                        <p class="card-text text-white">THIS IS MY STORY</p>
+                        <div class="line text-white"></div>
+                    </div>
                 </div>
             </div>
             </div>
 
 
             <table>
-
                 <tr>
                     <td class="dt"><p class="text-info me-3">5 months ago</p></td>
                     <td><pre class="text-white sign s-software">&#60;&#62;</pre></td>
@@ -240,11 +239,11 @@
             <div class="card-footer text-muted">
                 <p>&copy; Copyright 2021</p>
             </div>
-            <div class="w-25 d-flex justify-content-evenly text-primary mt-3">
-                <fa :icon="['fab', 'facebook-f']"></fa>
-                <fa :icon="['fab', 'linkedin']"></fa>
-                <fa :icon="['fab', 'twitter']"></fa>
-                <fa :icon="['fab', 'github']"></fa>
+            <div class="w-25 d-flex justify-content-evenly text-secondary mt-3">
+                <a href="https://facebook.com/ambyy95" class="text-secondary"><fa :icon="['fab', 'facebook-f']"></fa></a>
+                <a href="https://www.linkedin.com/in/abdelmounaim-bakkari-b1b412197/" class="text-secondary"><fa :icon="['fab', 'linkedin']"></fa></a>
+                <a href="https://twitter.com/AbdelmounaimBKR" class="text-secondary"><fa :icon="['fab', 'twitter']"></fa></a>
+                <a href="https://github.com/AbdelmounaimBakkari" class="text-secondary"><fa :icon="['fab', 'github']"></fa></a>
             </div>
         </div>
 

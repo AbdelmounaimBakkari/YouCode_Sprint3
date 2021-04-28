@@ -20,8 +20,8 @@ import Projects from '../components/Projects'
 export default {
   name: "Home",
   components: {
-   titlex,aboutme,
-    Experiences,myskills,Projects
+  titlex,aboutme,
+  Experiences,myskills,Projects
   }
 }
 </script>

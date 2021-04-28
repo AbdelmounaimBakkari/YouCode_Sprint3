@@ -35,16 +35,16 @@
         <div class="col-sm-6 text-dark paragraphe">
           <div class="card border-0 text-primary" >
               <ul class="list-group list-group-flush border-0 text-dark">
-                <li class="list-group-item border-0"> <h5 class="card-title">Abdelmouanim Bakkari</h5></li>
+                <li class="list-group-item border-0"> <h5 class="card-title">Abdelmounaim Bakkari</h5></li>
                 <li class="list-group-item border-0">Email: a.bakkari@student.youcode.ma</li>
                 <li class="list-group-item border-0">Phone: 0603980747</li>
                 <li class="list-group-item border-0">City: Youssoufia</li>
                 <li class="list-group-item border-0">Languages : Arabic, French, English</li>
                 <li class="list-group-item border-0 w-25 d-flex justify-content-evenly">
-                  <fa :icon="['fab', 'facebook-f']"></fa>
-                  <fa :icon="['fab', 'linkedin']"></fa>
-                  <fa :icon="['fab', 'twitter']"></fa>
-                  <fa :icon="['fab', 'github']"></fa>
+                  <a href="https://facebook.com/ambyy95" class="text-secondary"><fa :icon="['fab', 'facebook-f']"></fa></a>
+                  <a href="https://www.linkedin.com/in/abdelmounaim-bakkari-b1b412197/" class="text-secondary"><fa :icon="['fab', 'linkedin']"></fa></a>
+                  <a href="https://twitter.com/AbdelmounaimBKR" class="text-secondary"><fa :icon="['fab', 'twitter']"></fa></a>
+                  <a href="https://github.com/AbdelmounaimBakkari" class="text-secondary"><fa :icon="['fab', 'github']"></fa></a>
                 </li>
               </ul>
           </div>

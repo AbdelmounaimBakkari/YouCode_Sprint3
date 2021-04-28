@@ -1,51 +1,52 @@
 <template>
 <div class="container text-white border-0 bg-dark" style="max-width:100vw">
-  <div class="title">
-     <h2>Experiences</h2> 
-     <h5> Academic and Professional </h5>
-     <div class="line"></div>
+  <div class="title mb-5">
+    <h2>Experiences</h2> 
+    <h5> Academic and Professional </h5>
+    <div class="line"></div>
   </div>
-    <div class="container d-flex bg-dark">
-        <div class="container d-flex-column border-end">
-             <div class="card bg-dark border-0 border-bottom border-white">
-  <div class="card-body bg-dark ">
-    <h5 class="card-title ">Full-stack developper apprentice</h5>
-    <h6 class="card-subtitle mb-2 text-muted ">Youcode, 2020-2022</h6>
-    <p class="card-text "> A program that prepares apprentices to become full-stack developper using different technologies which depends on the skills they want to improve and the career choice they make  </p>
-    <a href="https://youcode.ma/" class="card-link text-muted">School Website</a>
+
+  <div class="container d-flex flex-row justify-content-around">
+    <div class="text-end" style="width: 35vw;">
+      <p class="fs-4 fw-bold mb-4">EDUCATION</p>
+      <div class="lh-1 mb-5">
+        <p class="fs-6">From September 2020</p>
+        <p class="fs-5 fw-bold">Computer Science Master at USMB</p>
+        <p class="fs-6">Specialized in artificial intelligence and collaborative systems</p>
+      </div>
+      <div class="lh-1 mb-5">
+        <p class="fs-6">2017 - 2020</p>
+        <p class="fs-5 fw-bold">IT License</p>
+        <p class="fs-6">University Savoie Mont-Blanc, France</p>
+      </div>
+      <div class="lh-1 mb-5">
+        <p class="fs-6">2013 - 2017</p>
+        <p class="fs-5 fw-bold">Scientific Baccalaureate</p>
+        <p class="fs-6">Lycée de l'Albanais at Rumilly, France</p>
+      </div>
+    </div>
+    <div class="vertecal"></div>
+    <div class="text-start" style="width: 35vw;">
+      <p class="fs-4 fw-bold">PROFESSIONAL</p>
+      <div class="lh-1 mb-5">
+        <p class="fs-6">01.2020 - 05.2020</p>
+        <p class="fs-5 fw-bold">Urbalog LAET Project</p>
+        <p class="fs-6">Digitizing the Urbalog board game on Android with the Nearby Connection API</p>
+      </div>
+      <div class="lh-1 mb-5">
+        <p class="fs-6">07.2019</p>
+        <p class="fs-5 fw-bold">Pfeiffer Vacuum SAS, Annecy</p>
+        <p class="fs-6">Interim IT mission: implementation of a new Qlickview access management program + Laravel development</p>
+      </div>
+      <div class="lh-1 mb-5">
+        <p class="fs-6">07.2018</p>
+        <p class="fs-5 fw-bold">Pfeiffer Vacuum SAS, Annecy</p>
+        <p class="fs-6">Interim IT mission: Management of SAP tables and inventory of sub-programs</p>
+      </div>
+    </div>
   </div>
+
 </div>
- <div class="card bg-dark border-0">
-  <div class="card-body">
-    <h5 class="card-title"> Master of Sciences</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Aix-Marseille, 2018-2019</h6>
-    <p class="card-text"> Environmental Management master program at OSU Pythéas Institute with focus on training students to tackle and problem solve any issues related to environemental management like certification, audit and sustainability analysis</p>
-    <a href="https://www.osupytheas.fr/" class="card-link text-muted">Institute website</a>
-   
-  </div>
-</div>
-        </div>
-  
- <div class="container d-flex-column bg-dark">
-             <div class="card bg-dark border-0 border-bottom border-white">
-  <div class="card-body">
-    <h5 class="card-title">Assistant QSE Manager</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Fauché Aix-en-Provence,2019</h6>
-    <p class="card-text"> Assist the manager in all tasks related to safety and environemental management certification and prepare the necessary documentation and tools</p>
-    <a href="https://www.fauche.com/" class="card-link text-muted">Fauché Aix-en-Provence</a>
-  </div>
-</div>
- <div class="card bg-dark border-0" >
-  <div class="card-body">
-    <h5 class="card-title">Freelance Teacher and Translator</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Idealog school,2018</h6>
-    <p class="card-text">Prepare, Teach and control progress of Turkish language student as well as provide assistance to Turkish expats at demand.</p>
-    <a href="http://www.idealog.ma/" class="card-link text-muted">Idealog</a>
-  </div>
-</div>
-        </div>
-</div>
- </div>
 </template>
 
 
@@ -56,6 +57,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .title{
     display: flex;
     flex-direction: column;
@@ -74,5 +76,11 @@ h2 {
   margin: auto;
   border-bottom: 2px solid;
 }
+
+.vertecal{
+  border-left: 2px solid;
+  // border-right: 1px solid;
+}
+
 </style>
 
